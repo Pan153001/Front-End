@@ -11,6 +11,8 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
+app.use(express.static(__dirname + '/public/views'));
+
 app.get("/", async (req, res) => {
     try {
         const response = await axios.get(base_url + '/books');

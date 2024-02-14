@@ -1,8 +1,8 @@
 const express = require('express');
 const axios = require('axios');
-const app = express();
 var bodyParser = require('body-parser');
 const path = require("path");
+const app = express();
 
 const base_url = "https://node57018-pan-noderest.proen.app.ruk-com.cloud";
 

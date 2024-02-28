@@ -16,8 +16,7 @@ body {
   /* Style the table */
   table {
     border-collapse: collapse;
-    width: 50%;
-    flex: center;
+    width: 100%;
   }
   
   th, td {
